@@ -13,6 +13,7 @@ class StockecmarkerApplicationTests {
 	@Test
 	void contextLoads() {
 		assertEquals(true,true);
+
 		}
 
 }
