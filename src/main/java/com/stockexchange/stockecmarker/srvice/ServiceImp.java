@@ -48,12 +48,6 @@ public class ServiceImp implements service{
     @Override
     public ResponceDto getAllData() {
         List<myModel> data=repo.findAll();
-//        int id=89;
-//        List<UserModel> user=userRepo.findByStockId(id);
-//        if(user.isEmpty()){
-//            return new ResponceDto(new,"exception....");
-//        }
-//        return new ResponceDto(user,"-------");
         if(data.isEmpty()){
             return new ResponceDto("The Data not present in the Db","Empty data present");
         }else{
