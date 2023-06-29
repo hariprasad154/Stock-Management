@@ -14,7 +14,6 @@ class StockecmarkerApplicationTests {
 	void contextLoads() {
 		assertEquals(true,true);
 		}
-	}
 
 }
 
